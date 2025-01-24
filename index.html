@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive portfolio website</title>
+</head>
+<body>
+    <!-- Header Design -->
+    <Header>
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <!-- check for active later -->
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#work">work</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </Header>
+    <!-- Home Section Design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Harshit Jarajana</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Exploring the World of Innovation, Aiming to build a successful career by leveraging technical expertise, creativity, and a deep curiosity for innovation.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/harshit.jarajana" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/j_._harshith" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://linkedin.com/in/harshit-jarajana-964292271" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Harshith0027" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="https://harshith-resume.tiiny.site" target="_blank" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="assets\pictures\profile.png" alt="Harshith Jarajana">
+        </div>
+    </section>
+    <!-- About Section Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets\pictures\about.jpg" alt="Harshit Jarajana"> 
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Developer</h3>
+            <p>I am a passionate software enthusiast eager to embrace new challenges in a dynamic and competitive environment. My goal is to expand my knowledge in the field of computer science while leveraging my technical skills and adaptability. I thrive on innovation and am committed to contributing meaningfully to projects that make an impact. I look forward to learning from experienced professionals and developing a successful career in technology.</p>
+            <a href="https://github.com/Harshith0027" target="_blank" class="btn">Read More</a>
+        </div>
+    </section>
+    <!-- Work Section -->
+    <section class="work" id="work">
+        <h2 class="heading">My <span>Work</span></h2>
+        <div class="work-container">
+            <div class="works-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Personal Work</p>
+                <a href="#projects" class="btn">Read More</a>
+            </div>
+            <div class="works-box">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Image Processing</h3>
+                <p>Work at College</p>
+                <a href="#projects" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Project Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading"> My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-box">
+                <div class="project-box-inner">
+                    <div class="project-box-front">
+                        <img class="projectImg" src="assets\pictures\project pics\Task Hub.png" alt="Task Hub Clip">
+                    </div>
+                    <div class="project-box-back">
+                        <h4>Task Hub </h4>
+                        <p>A web application that streamlines project organization and enhances productivity. Built with React and Node.js, it utilizes RESTful APIs and Redux for efficient state management. Users can create, read, update, and delete tasks while benefiting from secure data storage with MongoDB and JWT authentication. The responsive design ensures optimal user experience across devices, featuring task prioritization, deadlines, and progress tracking.</p>
+                        <a href="https://github.com/Harshith0027/Task-Hub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-box-inner">
+                    <div class="project-box-front">
+                        <img src="assets\pictures\project pics\Cloud Notes.png" alt="Cloud Notes Clip">
+                    </div>
+                    <div class="project-box-back">
+                        <h4>Cloud Notes </h4>
+                        <p> A web application for efficient note management, built with React and Node.js. It utilizes RESTful API principles for seamless client-server interaction and integrates MongoDB for secure data storage. Users can create, read, update, and delete notes while benefiting from JWT authentication. The app features a responsive design for optimal use on both desktop and mobile devices.</p>
+                        <a href="https://github.com/Harshith0027/cloud-notes" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-box-inner">
+                    <div class="project-box-front">
+                        <img src="assets\pictures\project pics\Hustle Headlines.png" alt="Hustle Headlines Clip">
+                    </div>
+                    <div class="project-box-back">
+                        <h4>Hustle headlines</h4>
+                        <p> A dynamic web application providing real-time access to the latest news articles using React and the News API. Users can explore articles across various categories like business, health, technology, and entertainment. The app features a responsive design, allowing seamless navigation on both desktop and mobile devices, with a loading bar for improved user feedback during data fetching</p>
+                        <a href="https://github.com/Harshith0027/News-React" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-box-inner">
+                    <div class="project-box-front">
+                        <img src="assets\pictures\project pics\TextUtils.png" alt="TextUtils Clip">
+                    </div>
+                    <div class="project-box-back">
+                        <h4>TextUtils </h4>
+                        <p>Basic Web Application with text transformation functionalities for user interaction. Technologies used in app's development are React, HTML, CSS, JavaScript.</p>
+                        <a href="https://github.com/Harshith0027/TextUtils" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-box-inner">
+                    <div class="project-box-front">
+                        <img src="assets\pictures\project pics\Swift Cart.png" alt="Swift Cart Clip">
+                    </div>
+                    <div class="project-box-back">
+                        <h4>Swift Cart </h4>
+                        <p>A system designed to reduce queues in shopping environments by integrating image processing with monitoring cameras in service carts. This system connects to a cloud database and provides customer access through a user-friendly Android application.</p>
+                        <a href="https://github.com/Harshith0027/Swift-Cart" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-box-inner">
+                    <div class="project-box-front">
+                        <img src="assets\pictures\project pics\Count Four Game.png" alt="Count Four Clip">
+                    </div>
+                    <div class="project-box-back">
+                        <h4>Count Four </h4>
+                        <p>A fun COUNT-FOUR Game with a simple yet attractive web interface using technologies HTML, CSS And JavaScript which also displays the current player's turn and also displays the winner. This project provides the freedom from boredom by letting the players apply strategic thinking skills which improves the cognitive function of their brain. </p>
+                        <a href="https://github.com/Harshith0027/connect_four" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skill Section Design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="fa-brands fa-python"></i> <!-- Replace with the appropriate icon -->
+                <h3>Languages</h3>
+                <p>Python, JavaScript</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-code"></i> <!-- Replace with the appropriate icon -->
+                <h3>Web Technologies</h3>
+                <p>HTML, CSS, ReactJS, Redux, REST API, ExpressJS</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-database"></i> <!-- Replace with the appropriate icon -->
+                <h3>Database Management Systems</h3>
+                <p>SQL, MongoDB</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-brands fa-git-alt"></i> <!-- Replace with the appropriate icon -->
+                <h3>Version Control and Tools</h3>
+                <p>Git, GitHub, VS Code, Power BI</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-cogs"></i> <!-- Replace with the appropriate icon -->
+                <h3>Conceptual Understanding</h3>
+                <p>OS, DBMS, Software Engineering</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="text" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="message-area" id="message-area" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-icon">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
